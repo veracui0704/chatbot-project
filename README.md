@@ -3,13 +3,19 @@
 ChatBot trained with movie subtitles for self-learning and practices.  
 
 The the model flow mainly follows the user **Currie32** with several modifications(__combination with API and html__).  
-Please refer to [his Github work](https://github.com/Currie32/Chatbot-from-Movie-Dialogue/blob/master/Chatbot_Attention.ipynb) with for your detailed information.
+Please refer to [his Github work](https://github.com/Currie32/Chatbot-from-Movie-Dialogue/blob/master/Chatbot_Attention.ipynb) with for your detailed information.  
 
+RNN and LSTM are used in the program to perform seq2seq modelling with attention(many inputs-many outputs) and avoid long-term memory problem.
 
 ## Getting Started
 
-The following simple instructions will give you some basic introduction to this project which you could download and try on your computer for studying and testing purposes.
+The following simple instructions will give you some basic introduction to this project which you could download and try on your computer for studying and testing purposes.  
+You may have a look at the list of documents below and their purposes.
 
+- data.zip: data used, please download and unzip it into a folder "data"  
+- chatbot.py: main program  
+- app.py + template/chatbothtml.html: try to use html and flask to call python by clicking on a button  
+- server.py: try to call program by API
 
 ### Dependencies
 1. For chatbot.py:

@@ -2,8 +2,8 @@
 
 ChatBot trained with movie subtitles for self-learning and practices.  
 
-The the model flow mainly follows the user **Currie32** with several modifications(__combination with API and html__).  
-Please refer to [his Github work](https://github.com/Currie32/Chatbot-from-Movie-Dialogue/blob/master/Chatbot_Attention.ipynb) with for your detailed information.  
+The the model flow mainly follows the user **Currie32** with several modifications(__some structures, combinations with API and html__).  
+Please refer to [his Github work](https://github.com/Currie32/Chatbot-from-Movie-Dialogue) for your detailed information.  
 
 RNN and LSTM are used in the program to perform seq2seq modelling with attention(many inputs-many outputs) and avoid long-term memory problem.
 

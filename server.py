@@ -1,6 +1,5 @@
 # This is a simple API created to run ChatBot.py
 # By return a notification message and execute the script
-import chatbot
 from flask import Flask, request
 from flask_restful import Resource, Api
 import os

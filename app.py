@@ -2,7 +2,7 @@
 # Enables a button on the website which will call the
 # Chatbot.predict() function and run test
 from flask import Flask, request, render_template
-import chatbot
+import os
 app = Flask(__name__)
 
 
@@ -13,7 +13,8 @@ def index():
 
 @app.route('/ChatBot_home/test')
 def test():
-    chatbot.predict()
+    cmd = 'python chatbot.py predict'
+    os.system(cmd)
     return '<h3>Hey the ChatBot program is running now.</h3>'
 
 if __name__ == '__main__':
